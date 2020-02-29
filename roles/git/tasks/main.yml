@@ -1,0 +1,6 @@
+---
+# tasks file for git
+- name: Install git in localhost
+  yum:
+   name: git
+   state: present

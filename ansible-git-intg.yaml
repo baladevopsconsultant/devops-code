@@ -1,0 +1,9 @@
+---
+- name: Integration of anible with git
+  hosts: all
+  tasks:
+   - name: Integration
+     command: echo "Hey Am integrated with GIT"
+     register: output
+   - debug:
+      var: output

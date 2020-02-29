@@ -1,2 +1,1 @@
 "This is a new initial branch"
-"One more line is added"
